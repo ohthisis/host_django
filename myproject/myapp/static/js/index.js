@@ -4,6 +4,7 @@ const imageTwo = document.querySelector(".image-2");
 const btnYes = document.querySelector(".btn-yes");
 const btnNo = document.querySelector(".btn-no");
 
+console.log('hello vercel')
 function getRandomNumber(min, max) {
   // Calculate the random number between min and max (inclusive)
   const randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
